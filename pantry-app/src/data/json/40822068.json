@@ -1,0 +1,1267 @@
+{
+  "attributes": {
+    "VersionDateTime": "2015-04-30T16:32:55Z"
+  },
+  "Identity": {
+    "TargetMarkets": {
+      "TargetMarket": {
+        "attributes": {
+          "Code": "GB"
+        }
+      }
+    },
+    "ProductCodes": {
+      "Code": [
+        {
+          "attributes": {
+            "Scheme": "GTIN"
+          },
+          "$value": "40822068"
+        },
+        {
+          "attributes": {
+            "Scheme": "BRANDBANK:PVID"
+          },
+          "$value": "2851699"
+        }
+      ]
+    },
+    "Subscription": {
+      "attributes": {
+        "Id": "45293",
+        "Code": "ACOC001"
+      },
+      "$value": "CCE GB - Branded Products"
+    },
+    "DiagnosticDescription": {
+      "attributes": {
+        "Code": "en-GB"
+      },
+      "$value": "Diet Coke 330ml"
+    },
+    "DefaultLanguage": "en-GB",
+    "Compliance": {
+      "EU1169_2011": "SupplierStatedCompliant"
+    }
+  },
+  "Assets": {
+    "Image": {
+      "attributes": {
+        "ShotTypeId": "1",
+        "ShotType": "ID Shot",
+        "MimeType": "image/jpeg"
+      },
+      "Specification": {
+        "RequestedDimensions": {
+          "attributes": {
+            "Units": "Pixels"
+          },
+          "Width": "1000",
+          "Height": "1000"
+        },
+        "Quality": "85",
+        "Resolution": "72",
+        "IsCropped": "false",
+        "CropPadding": "0",
+        "MaxSizeInBytes": "0"
+      },
+      "Url": "http://productimages.brandbank.com/snapshotimagehandler.ashx?id=00c0ef95-e9d7-3ff0-f964-b3fd02fe512c",
+      "Thumbprint": "a/S3YD3KIhLBtsNLLb2g9A=="
+    }
+  },
+  "Data": {
+    "Language": {
+      "attributes": {
+        "Code": "en-GB",
+        "Source": "OffPack",
+        "GroupingSetId": "0",
+        "GroupingSetName": "No Grouping"
+      },
+      "Description": "Diet Coke 330ml",
+      "Categorisations": {
+        "Categorisation": {
+          "attributes": {
+            "Scheme": "BRANDBANK"
+          },
+          "Level": [
+            {
+              "attributes": {
+                "Code": "13"
+              },
+              "$value": "Drinks"
+            },
+            {
+              "attributes": {
+                "Code": "01"
+              },
+              "$value": "Carbonated Drinks"
+            },
+            {
+              "attributes": {
+                "Code": "01"
+              },
+              "$value": "Cola"
+            }
+          ]
+        }
+      },
+      "ItemTypeGroup": {
+        "attributes": {
+          "Id": "0",
+          "Name": "All Attributes"
+        },
+        "Statements": [
+          {
+            "attributes": {
+              "Id": "2",
+              "Name": "Lifestyle"
+            },
+            "Statement": [
+              {
+                "attributes": {
+                  "Id": "68"
+                },
+                "$value": "Suitable for Vegans"
+              },
+              {
+                "attributes": {
+                  "Id": "69"
+                },
+                "$value": "Suitable for Vegetarians"
+              }
+            ]
+          },
+          {
+            "attributes": {
+              "Id": "72",
+              "Name": "Average Measure"
+            },
+            "Statement": {
+              "attributes": {
+                "Id": "928"
+              },
+              "$value": "Average Measure (e)"
+            }
+          },
+          {
+            "attributes": {
+              "Id": "149",
+              "Name": "Recycling Scheme"
+            },
+            "Statement": {
+              "attributes": {
+                "Id": "1878"
+              },
+              "$value": "OPRL"
+            }
+          }
+        ],
+        "Memo": [
+          {
+            "attributes": {
+              "Id": "3",
+              "Name": "Other Information",
+              "xml:space": "preserve"
+            },
+            "$value": "Contains a Source of Phenylalanine."
+          },
+          {
+            "attributes": {
+              "Id": "15",
+              "Name": "Manufacturers Address",
+              "xml:space": "preserve"
+            },
+            "$value": "Coca-Cola Enterprises Ltd,\nUxbridge,\nUB8 1EZ."
+          },
+          {
+            "attributes": {
+              "Id": "19",
+              "Name": "Preparation and Usage",
+              "xml:space": "preserve"
+            },
+            "$value": "Best served chilled"
+          },
+          {
+            "attributes": {
+              "Id": "20",
+              "Name": "Storage",
+              "xml:space": "preserve"
+            },
+            "$value": "Store cool and dry\nBest before end: See side of cap or bottle neck for date."
+          },
+          {
+            "attributes": {
+              "Id": "26",
+              "Name": "Return To",
+              "xml:space": "preserve"
+            },
+            "$value": "Coca-Cola Enterprises Ltd,\nUxbridge,\nUB8 1EZ.\n0800 227711\nCoca-Cola.co.uk"
+          },
+          {
+            "attributes": {
+              "Id": "35",
+              "Name": "Product Marketing",
+              "xml:space": "preserve"
+            },
+            "$value": "Love it light? Add some sparkle to your day, minus the calories with Diet Coke\n\nDiet Coke is a sugar free, low calorie soft drink.\nNo Sugar\nNo Calories\nGluten-free, dairy-free and nut-free\nContains vegetable extracts and sweeteners\n\nServe over ice with a slice of lime.\n\nKeep cold in the fridge.\n\nPlease recycle."
+          },
+          {
+            "attributes": {
+              "Id": "36",
+              "Name": "Brand Marketing",
+              "xml:space": "preserve"
+            },
+            "$value": "Coca-Cola and the Environment\nCoca-Cola is committed to making a positive difference - to the health of the planet, consumers and the communities it serves. The company is working hard to reduce its impact on the environment in everything it does - growing more while using less in areas such as energy and water use, waste reduction and recycling - and by encouraging people to think more about the positive impact they can have on their local environment."
+          },
+          {
+            "attributes": {
+              "Id": "159",
+              "Name": "Regulated Product Name",
+              "xml:space": "preserve"
+            },
+            "$value": "Sparkling Low Calorie Soft Drink with Vegetable Extracts with Sweeteners"
+          },
+          {
+            "attributes": {
+              "Id": "193",
+              "Name": "Company Address",
+              "xml:space": "preserve"
+            },
+            "$value": "Uxbridge,\nUB8 1EZ."
+          }
+        ],
+        "NameLookups": [
+          {
+            "attributes": {
+              "Id": "4",
+              "Name": "Allergy Advice"
+            },
+            "NameValue": [
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "105"
+                  },
+                  "$value": "Celery"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "106"
+                  },
+                  "$value": "Cereals Containing Gluten"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "166"
+                  },
+                  "$value": "Gluten"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "111"
+                  },
+                  "$value": "Crustaceans"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "112"
+                  },
+                  "$value": "Eggs"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "113"
+                  },
+                  "$value": "Fish"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "115"
+                  },
+                  "$value": "Lupin"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "116"
+                  },
+                  "$value": "Milk"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "117"
+                  },
+                  "$value": "Molluscs"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "118"
+                  },
+                  "$value": "Mustard"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "119"
+                  },
+                  "$value": "Nuts"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "120"
+                  },
+                  "$value": "Peanuts"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "128"
+                  },
+                  "$value": "Sulphur Dioxide/Sulphites"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "1981"
+                  },
+                  "$value": "Soya"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              },
+              {
+                "Name": {
+                  "attributes": {
+                    "Id": "1982"
+                  },
+                  "$value": "Sesame"
+                },
+                "Value": {
+                  "attributes": {
+                    "Id": "3"
+                  },
+                  "$value": "Free From"
+                }
+              }
+            ]
+          },
+          {
+            "attributes": {
+              "Id": "5",
+              "Name": "Additives"
+            },
+            "NameValue": {
+              "Name": {
+                "attributes": {
+                  "Id": "137"
+                },
+                "$value": "Genetically Modified Ingredients"
+              },
+              "Value": {
+                "attributes": {
+                  "Id": "6"
+                },
+                "$value": "Free From"
+              }
+            }
+          },
+          {
+            "attributes": {
+              "Id": "11",
+              "Name": "Recycling Info"
+            },
+            "NameValue": {
+              "Name": {
+                "attributes": {
+                  "Id": "1843"
+                },
+                "$value": "Bottle"
+              },
+              "Value": {
+                "attributes": {
+                  "Id": "35156"
+                },
+                "$value": "Glass - Widely Recycled"
+              }
+            }
+          },
+          {
+            "attributes": {
+              "Id": "27",
+              "Name": "Storage Type"
+            },
+            "NameValue": {
+              "Name": {
+                "attributes": {
+                  "Id": "190"
+                },
+                "$value": "Type"
+              },
+              "Value": {
+                "attributes": {
+                  "Id": "271"
+                },
+                "$value": "Ambient"
+              }
+            }
+          },
+          {
+            "attributes": {
+              "Id": "29",
+              "Name": "Pack Type"
+            },
+            "NameValue": {
+              "Name": {
+                "attributes": {
+                  "Id": "197"
+                },
+                "$value": "Type"
+              },
+              "Value": {
+                "attributes": {
+                  "Id": "279"
+                },
+                "$value": "Bottle"
+              }
+            }
+          },
+          {
+            "attributes": {
+              "Id": "33",
+              "Name": "Standardised Brand"
+            },
+            "NameValue": {
+              "Name": {
+                "attributes": {
+                  "Id": "224"
+                },
+                "$value": "Brand"
+              },
+              "Value": {
+                "attributes": {
+                  "Id": "1554"
+                },
+                "$value": "Coca-Cola"
+              }
+            }
+          },
+          {
+            "attributes": {
+              "Id": "69",
+              "Name": "Unit (specific)"
+            },
+            "NameValue": {
+              "Name": {
+                "attributes": {
+                  "Id": "927"
+                },
+                "$value": "Unit (specific)"
+              },
+              "Value": {
+                "attributes": {
+                  "Id": "12573",
+                  "Code": "ml"
+                },
+                "$value": "Millilitres"
+              }
+            }
+          },
+          {
+            "attributes": {
+              "Id": "160",
+              "Name": "Calculated Nutrition Ordering"
+            },
+            "NameValue": {
+              "Name": {
+                "attributes": {
+                  "Id": "1882"
+                },
+                "$value": "Scheme"
+              },
+              "Value": {
+                "attributes": {
+                  "Id": "35181"
+                },
+                "$value": "Regulation (EU) No 1169/2011"
+              }
+            }
+          }
+        ],
+        "LongTextItems": [
+          {
+            "attributes": {
+              "Id": "12",
+              "Name": "Allergy Other Text"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "This product is allergen free"
+            }
+          },
+          {
+            "attributes": {
+              "Id": "13",
+              "Name": "Additives Other Text"
+            },
+            "Text": [
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "No added preservatives"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Contains natural flavourings"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Contains added colours"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Contains added intense sweeteners"
+              }
+            ]
+          },
+          {
+            "attributes": {
+              "Id": "14",
+              "Name": "Lifestyle Other Text"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Contains caffeine"
+            }
+          },
+          {
+            "attributes": {
+              "Id": "25",
+              "Name": "Brand"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Diet Coke"
+            }
+          },
+          {
+            "attributes": {
+              "Id": "32",
+              "Name": "Features"
+            },
+            "Text": [
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Only natural flavours"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "No calories and sugar"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "No added preservatives"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "This product is GMO free"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "This product is gluten free"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "This product is allergen free"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "This product is suitable for vegetarians/vegans"
+              }
+            ]
+          },
+          {
+            "attributes": {
+              "Id": "70",
+              "Name": "Pack Size"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "330"
+            }
+          },
+          {
+            "attributes": {
+              "Id": "71",
+              "Name": "Unit (free text)"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "ml"
+            }
+          },
+          {
+            "attributes": {
+              "Id": "84",
+              "Name": "Ingredients"
+            },
+            "Text": [
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Carbonated Water"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Colour (Caramel E150d)"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Sweeteners (Aspartame, Acesulfame K)"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Natural Flavourings including Caffeine"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Phosphoric Acid"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "Citric Acid"
+              }
+            ]
+          },
+          {
+            "attributes": {
+              "Id": "153",
+              "Name": "Telephone Helpline"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "0800 227711"
+            }
+          },
+          {
+            "attributes": {
+              "Id": "155",
+              "Name": "Web Address"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Coca-Cola.co.uk"
+            }
+          },
+          {
+            "attributes": {
+              "Id": "156",
+              "Name": "Nutritional Claims"
+            },
+            "Text": [
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "No calories"
+              },
+              {
+                "attributes": {
+                  "xml:space": "preserve"
+                },
+                "$value": "No sugar"
+              }
+            ]
+          },
+          {
+            "attributes": {
+              "Id": "192",
+              "Name": "Company Name"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Coca-Cola Enterprises Ltd"
+            }
+          }
+        ],
+        "NameTextItems": {
+          "attributes": {
+            "Id": "68",
+            "Name": "Numeric Size"
+          },
+          "NameText": {
+            "Name": {
+              "attributes": {
+                "Id": "926"
+              },
+              "$value": "Numeric Size"
+            },
+            "Text": {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "330"
+            }
+          }
+        },
+        "TextualNutrition": {
+          "attributes": {
+            "Id": "85",
+            "Name": "Nutrition"
+          },
+          "Headings": {
+            "Heading": [
+              "Per 100ml",
+              "Per 330ml (RI*)"
+            ]
+          },
+          "Nutrient": [
+            {
+              "Name": "Energy",
+              "Values": {
+                "Value": [
+                  "1.6kJ",
+                  "5kJ"
+                ]
+              }
+            },
+            {
+              "Name": null,
+              "Values": {
+                "Value": [
+                  "0.4kcal",
+                  "1kcal (0%)"
+                ]
+              }
+            },
+            {
+              "Name": "Fat",
+              "Values": {
+                "Value": [
+                  "0g",
+                  "0g (0%)"
+                ]
+              }
+            },
+            {
+              "Name": "of which saturates",
+              "Values": {
+                "Value": [
+                  "0g",
+                  "0g (0%)"
+                ]
+              }
+            },
+            {
+              "Name": "Carbohydrate",
+              "Values": {
+                "Value": [
+                  "0g",
+                  "0g (0%)"
+                ]
+              }
+            },
+            {
+              "Name": "of which sugars",
+              "Values": {
+                "Value": [
+                  "0g",
+                  "0g (0%)"
+                ]
+              }
+            },
+            {
+              "Name": "Protein",
+              "Values": {
+                "Value": [
+                  "0g",
+                  "0g (0%)"
+                ]
+              }
+            },
+            {
+              "Name": "Salt",
+              "Values": {
+                "Value": [
+                  "0g",
+                  "0g (0%)"
+                ]
+              }
+            },
+            {
+              "Name": "*Reference intake of an average adult (8400kJ/2000kcal)",
+              "Values": {
+                "Value": [
+                  null,
+                  null
+                ]
+              }
+            }
+          ]
+        },
+        "NumericNutrition": {
+          "attributes": {
+            "Id": "86",
+            "Name": "Calculated Nutrition"
+          },
+          "Per100Unit": "ml",
+          "Per100Heading": "per 100",
+          "PerServingHeading": "Per 330ml",
+          "NutrientValues": [
+            {
+              "attributes": {
+                "Id": "1182",
+                "Name": "Energy (kJ)"
+              },
+              "Per100": {
+                "Value": "1.60000"
+              },
+              "PerServing": {
+                "Value": "5.00000"
+              }
+            },
+            {
+              "attributes": {
+                "Id": "1183",
+                "Name": "Energy (kcal)"
+              },
+              "Per100": {
+                "Value": "0.40000"
+              },
+              "PerServing": {
+                "Value": "1.00000"
+              }
+            },
+            {
+              "attributes": {
+                "Id": "1189",
+                "Name": "Fat (g)"
+              },
+              "Per100": {
+                "Value": "0.00000"
+              },
+              "PerServing": {
+                "Value": "0.00000"
+              }
+            },
+            {
+              "attributes": {
+                "Id": "1190",
+                "Name": " of which saturates (g)"
+              },
+              "Per100": {
+                "Value": "0.00000"
+              },
+              "PerServing": {
+                "Value": "0.00000"
+              }
+            },
+            {
+              "attributes": {
+                "Id": "1185",
+                "Name": "Carbohydrate (g)"
+              },
+              "Per100": {
+                "Value": "0.00000"
+              },
+              "PerServing": {
+                "Value": "0.00000"
+              }
+            },
+            {
+              "attributes": {
+                "Id": "1186",
+                "Name": " of which sugars (g)"
+              },
+              "Per100": {
+                "Value": "0.00000"
+              },
+              "PerServing": {
+                "Value": "0.00000"
+              }
+            },
+            {
+              "attributes": {
+                "Id": "1184",
+                "Name": "Protein (g)"
+              },
+              "Per100": {
+                "Value": "0.00000"
+              },
+              "PerServing": {
+                "Value": "0.00000"
+              }
+            },
+            {
+              "attributes": {
+                "Id": "1214",
+                "Name": "Salt (g)"
+              },
+              "Per100": {
+                "Value": "0.00000"
+              },
+              "PerServing": {
+                "Value": "0.00000"
+              }
+            }
+          ]
+        },
+        "TaggedLongTextItems": {
+          "attributes": {
+            "Id": "177",
+            "Name": "Taggable Ingredients"
+          },
+          "Text": [
+            {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Carbonated Water"
+            },
+            {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Colour (Caramel E150d)"
+            },
+            {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Sweeteners (Aspartame, Acesulfame K)"
+            },
+            {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Natural Flavourings including Caffeine"
+            },
+            {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Phosphoric Acid"
+            },
+            {
+              "attributes": {
+                "xml:space": "preserve"
+              },
+              "$value": "Citric Acid"
+            }
+          ]
+        },
+        "FrontOfPackGDA": {
+          "attributes": {
+            "Id": "178",
+            "Name": "Front of Pack Nutrition"
+          },
+          "Reference": {
+            "attributes": {
+              "Id": "4",
+              "Description": "Per Portion"
+            },
+            "Headers": {
+              "Header": "A 330ml serving contains"
+            },
+            "Lozenges": {
+              "Lozenge": [
+                {
+                  "attributes": {
+                    "Id": "1906",
+                    "Name": "Energy"
+                  },
+                  "Quantities": {
+                    "Quantity": [
+                      {
+                        "Value": "5",
+                        "Unit": {
+                          "attributes": {
+                            "Id": "2",
+                            "Name": "kJ"
+                          }
+                        }
+                      },
+                      {
+                        "Value": "1",
+                        "Unit": {
+                          "attributes": {
+                            "Id": "3",
+                            "Name": "kcal"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "Percentage": {
+                    "Value": "0.00"
+                  }
+                },
+                {
+                  "attributes": {
+                    "Id": "1907",
+                    "Name": "Fat"
+                  },
+                  "Quantities": {
+                    "Quantity": {
+                      "Value": "0",
+                      "Unit": {
+                        "attributes": {
+                          "Id": "1",
+                          "Name": "g"
+                        }
+                      }
+                    }
+                  },
+                  "Percentage": {
+                    "Value": "0.00"
+                  },
+                  "Rating": {
+                    "attributes": {
+                      "Id": "1",
+                      "Name": "Low"
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "Id": "1908",
+                    "Name": "Saturates"
+                  },
+                  "Quantities": {
+                    "Quantity": {
+                      "Value": "0",
+                      "Unit": {
+                        "attributes": {
+                          "Id": "1",
+                          "Name": "g"
+                        }
+                      }
+                    }
+                  },
+                  "Percentage": {
+                    "Value": "0.00"
+                  },
+                  "Rating": {
+                    "attributes": {
+                      "Id": "1",
+                      "Name": "Low"
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "Id": "1909",
+                    "Name": "Sugars"
+                  },
+                  "Quantities": {
+                    "Quantity": {
+                      "Value": "0",
+                      "Unit": {
+                        "attributes": {
+                          "Id": "1",
+                          "Name": "g"
+                        }
+                      }
+                    }
+                  },
+                  "Percentage": {
+                    "Value": "0.00"
+                  },
+                  "Rating": {
+                    "attributes": {
+                      "Id": "1",
+                      "Name": "Low"
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "Id": "1910",
+                    "Name": "Salt"
+                  },
+                  "Quantities": {
+                    "Quantity": {
+                      "Value": "0",
+                      "Unit": {
+                        "attributes": {
+                          "Id": "1",
+                          "Name": "g"
+                        }
+                      }
+                    }
+                  },
+                  "Percentage": {
+                    "Value": "0.00"
+                  },
+                  "Rating": {
+                    "attributes": {
+                      "Id": "1",
+                      "Name": "Low"
+                    }
+                  }
+                }
+              ]
+            },
+            "Footers": {
+              "Footer": [
+                "Per 100ml 1.6kJ/0.4kcal",
+                "Reference intake of an average adult (8400kJ/2000kcal)"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
