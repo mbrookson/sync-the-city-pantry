@@ -1,4 +1,4 @@
-import { TabsPage } from './../tabs/tabs';
+import { IntroPage } from './../intro/intro';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -21,7 +21,7 @@ export class LoginPage {
   }
 
   login() {
-    this.navCtrl.setRoot(TabsPage);
+    this.navCtrl.setRoot(IntroPage);
   }
 
 }
