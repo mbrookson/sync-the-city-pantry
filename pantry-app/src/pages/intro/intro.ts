@@ -1,4 +1,4 @@
-import { TabsPage } from './../tabs/tabs';
+import { PantryPage } from './../pantry/pantry';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -35,7 +35,7 @@ export class IntroPage {
   }
 
   continue() {
-    this.navCtrl.setRoot(TabsPage);
+    this.navCtrl.setRoot(PantryPage);
   }
 
 }
