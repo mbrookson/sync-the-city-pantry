@@ -9,20 +9,14 @@ export class ProductDetailPage {
   @ViewChild('content') content: Content;
   @ViewChild('summaryCard') summaryCard: ElementRef;
 
-  scrollHeight: string;
+  scrollTopMargin: string;
 
   recommended: any[] = [];
 
   constructor(public navCtrl: NavController) {}
 
   ionViewDidEnter() {
-    var contentElement = this.content.getScrollElement();
-    var cardElement = this.summaryCard.nativeElement;
-
-    var contentHeight = contentElement.offsetHeight;
-    var cardHeight = cardElement.offsetHeight;
-
-    this.scrollHeight = contentHeight - cardHeight - 32 + 'px';
+    this.scrollTopMargin = this.summaryCard.nativeElement.offsetHeight + 16 + 'px';
 
     for (var i = 1; i < 5; i++) {
       this.recommended.push(i);

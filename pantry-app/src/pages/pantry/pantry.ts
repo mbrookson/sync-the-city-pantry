@@ -11,7 +11,7 @@ export class PantryPage {
   @ViewChild('content') content: Content;
   @ViewChild('summaryCard') summaryCard: ElementRef;
 
-  scrollHeight: string;
+  scrollTopMargin: string;
   shoppingList: any[] = [];
 
   constructor(public navCtrl: NavController, private app: App) {
@@ -19,13 +19,7 @@ export class PantryPage {
   }
 
   ionViewDidEnter() {
-    var contentElement = this.content.getScrollElement();
-    var cardElement = this.summaryCard.nativeElement;
-
-    var contentHeight = contentElement.offsetHeight;
-    var cardHeight = cardElement.offsetHeight;
-
-    this.scrollHeight = contentHeight - cardHeight - 32 + 'px';
+    this.scrollTopMargin = this.summaryCard.nativeElement.offsetHeight + 16 + 'px';
 
     for (var i = 1; i < 101; i++) {
       this.shoppingList.push(i);

@@ -1,21 +1,17 @@
 <ion-header>
-
   <ion-navbar color="primary">
     <ion-title>Details</ion-title>
   </ion-navbar>
-
 </ion-header>
-
-
 <ion-content #content>
-  <ion-card class="summary-card" #summaryCard>
+  <ion-card class="summary-card summary-panel" ion-fixed #summaryCard>
     <img src="https://www.britishcornershop.co.uk/img/large/TJ0006.jpg">
     <ion-card-header>Product name</ion-card-header>
     <ion-card-content>
       <p>Nutritional information</p>
     </ion-card-content>
   </ion-card>
-  <ion-scroll scrollY="true" class="product-scroll" [style.height]="scrollHeight">
+  <div [style.margin-top]="scrollTopMargin">
     <ion-card *ngFor="let item of recommended">
       <ion-item>
         <ion-thumbnail item-left>
@@ -27,5 +23,5 @@
         <button clear item-right>View</button>
       </ion-item>
     </ion-card>
-  </ion-scroll>
+  </div>
 </ion-content>

@@ -12,7 +12,7 @@
   </ion-navbar>
 </ion-header>
 <ion-content #content>
-  <ion-card #summaryCard class="summary-panel">
+  <ion-card #summaryCard class="summary-panel" ion-fixed>
     <ion-card-header>
       Summary
     </ion-card-header>
@@ -22,7 +22,7 @@
   <ion-fab bottom right>
     <button ion-fab><ion-icon name="add"></ion-icon></button>
   </ion-fab>
-  <ion-scroll scrollY="true" class="product-scroll" [style.height]="scrollHeight">
+  <div [style.margin-top]="scrollTopMargin">
     <ion-card *ngFor="let item of shoppingList" (click)="goToDetail()">
       <ion-item>
         <ion-thumbnail item-left>
@@ -34,5 +34,5 @@
         <button clear item-right>View</button>
       </ion-item>
     </ion-card>
-  </ion-scroll>
+  </div>
 </ion-content>
