@@ -1,5 +1,6 @@
 import { ProductDetailPage } from './../pages/product-detail/product-detail';
 import { LoginPage } from './../pages/login/login';
+import { IntroPage } from './../pages/intro/intro';
 import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
@@ -16,7 +17,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     PantryPage,
     TabsPage,
     LoginPage,
-    ProductDetailPage
+    ProductDetailPage,
+    IntroPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -28,8 +30,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     ProfilePage,
     PantryPage,
     TabsPage,
-    LoginPage,
-    ProductDetailPage
+	LoginPage,
+    ProductDetailPage,
+    IntroPage
   ],
   providers: []
 })

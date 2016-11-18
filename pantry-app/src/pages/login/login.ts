@@ -1,4 +1,4 @@
-import { PantryPage } from './../pantry/pantry';
+import { IntroPage } from './../intro/intro';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -21,7 +21,7 @@ export class LoginPage {
   }
 
   login() {
-    this.navCtrl.setRoot(PantryPage);
+    this.navCtrl.setRoot(IntroPage);
   }
 
 }
