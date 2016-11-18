@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Details</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #content>
+  <ion-card class="summary-card" #summaryCard>
+    <img src="https://www.britishcornershop.co.uk/img/large/TJ0006.jpg">
+    <ion-card-header>Product name</ion-card-header>
+    <ion-card-content>
+      <p>Nutritional information</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-scroll scrollY="true" class="product-scroll" [style.height]="scrollHeight">
+    <ion-card *ngFor="let item of recommended">
+      <ion-item>
+        <ion-thumbnail item-left>
+          <img src="http://img.tesco.com/Groceries/pi/930/5018374350930/IDShot_540x540.jpg">
+        </ion-thumbnail>
+        <h2>Baked beans</h2>
+        <p>£0.45</p>
+        <p>4.3 / 5</p>
+        <button clear item-right>View</button>
+      </ion-item>
+    </ion-card>
+  </ion-scroll>
+</ion-content>

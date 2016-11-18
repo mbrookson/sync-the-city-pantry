@@ -1,22 +1,19 @@
-import { ProductDetailPage } from './../product-detail/product-detail';
 import { Component, ViewChild, ElementRef } from '@angular/core';
-
-import { NavController, App, Card, Content, Scroll } from 'ionic-angular';
+import { NavController, Content } from 'ionic-angular';
 
 @Component({
-  selector: 'page-pantry',
-  templateUrl: 'pantry.html'
+  selector: 'page-product-detail',
+  templateUrl: 'product-detail.html'
 })
-export class PantryPage {
+export class ProductDetailPage {
   @ViewChild('content') content: Content;
   @ViewChild('summaryCard') summaryCard: ElementRef;
 
   scrollHeight: string;
-  shoppingList: any[] = [];
 
-  constructor(public navCtrl: NavController, private app: App) {
+  recommended: any[] = [];
 
-  }
+  constructor(public navCtrl: NavController) {}
 
   ionViewDidEnter() {
     var contentElement = this.content.getScrollElement();
@@ -27,13 +24,9 @@ export class PantryPage {
 
     this.scrollHeight = contentHeight - cardHeight - 32 + 'px';
 
-    for (var i = 1; i < 101; i++) {
-      this.shoppingList.push(i);
+    for (var i = 1; i < 5; i++) {
+      this.recommended.push(i);
     }
-  }
-
-  goToDetail() {
-    this.navCtrl.push(ProductDetailPage);
   }
 
 }
