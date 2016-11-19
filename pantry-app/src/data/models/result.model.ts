@@ -1,4 +1,4 @@
-export class Result {
+export class ResultModel {
   relationshipType: string;
   certainty: number;
   conditions: string[];
